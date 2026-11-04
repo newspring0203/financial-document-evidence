@@ -1,0 +1,1430 @@
+[
+  {
+    "image_id": 362091,
+    "image": "images/COCO_train2014_000000362091.jpg",
+    "caption": "a plate containing ground meat and yellow rice and carrots",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "spoon",
+        "pointTo": {
+          "x": 0.8933333333333333,
+          "y": 0.3622222222222222
+        }
+      },
+      {
+        "iconType": "fork",
+        "pointTo": {
+          "x": 0.8266666666666667,
+          "y": 0.25555555555555554
+        }
+      },
+      {
+        "iconType": "carrot",
+        "pointTo": {
+          "x": 0.29777777777777775,
+          "y": 0.24222222222222223
+        }
+      },
+      {
+        "iconType": "carrot",
+        "pointTo": {
+          "x": 0.24444444444444444,
+          "y": 0.15777777777777777
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 293906,
+    "image": "images/COCO_train2014_000000293906.jpg",
+    "caption": "a silver bicycle with wooden basket cars snow and buildings",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "bicycle",
+        "pointTo": {
+          "x": 0.6016666666666667,
+          "y": 0.4955555555555556
+        }
+      },
+      {
+        "iconType": "car",
+        "pointTo": {
+          "x": 0.6566666666666666,
+          "y": 0.29555555555555557
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 250833,
+    "image": "images/COCO_train2014_000000250833.jpg",
+    "caption": "Pink colored kitchen appliances for children seen outdoors.",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "refrigerator",
+        "pointTo": {
+          "x": 0.6783333333333333,
+          "y": 0.49777777777777776
+        }
+      },
+      {
+        "iconType": "oven",
+        "pointTo": {
+          "x": 0.24333333333333335,
+          "y": 0.5933333333333334
+        }
+      },
+      {
+        "iconType": "oven",
+        "pointTo": {
+          "x": 0.235,
+          "y": 0.4088888888888889
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 459214,
+    "image": "images/COCO_train2014_000000459214.jpg",
+    "caption": "A pizza with topping on a pizza board",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "pizza",
+        "pointTo": {
+          "x": 0.5839524517087668,
+          "y": 0.5888888888888889
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 382503,
+    "image": "images/COCO_train2014_000000382503.jpg",
+    "caption": "Fruits and vegetables are on display on a table draped with a red and gold covering.",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "banana",
+        "pointTo": {
+          "x": 0.26166666666666666,
+          "y": 0.31777777777777777
+        }
+      },
+      {
+        "iconType": "broccoli",
+        "pointTo": {
+          "x": 0.39166666666666666,
+          "y": 0.43333333333333335
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 206427,
+    "image": "images/COCO_train2014_000000206427.jpg",
+    "caption": "A customer is buying vegetables from an outdoor vendor.",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.27,
+          "y": 0.5133333333333333
+        }
+      },
+      {
+        "iconType": "broccoli",
+        "pointTo": {
+          "x": 0.5066666666666667,
+          "y": 0.6222222222222222
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 175635,
+    "image": "images/COCO_train2014_000000175635.jpg",
+    "caption": "A woman is sitting inside of an oven.",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.2685459940652819,
+          "y": 0.32666666666666666
+        }
+      },
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.31305637982195844,
+          "y": 0.18222222222222223
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 276956,
+    "image": "images/COCO_train2014_000000276956.jpg",
+    "caption": "Man and woman cutting a white wedding cake.",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.8017751479289941,
+          "y": 0.6711111111111111
+        }
+      },
+      {
+        "iconType": "tie",
+        "pointTo": {
+          "x": 0.5680473372781065,
+          "y": 0.35777777777777775
+        }
+      },
+      {
+        "iconType": "knife",
+        "pointTo": {
+          "x": 0.3165680473372781,
+          "y": 0.7066666666666667
+        }
+      },
+      {
+        "iconType": "cake",
+        "pointTo": {
+          "x": 0.15680473372781065,
+          "y": 0.7133333333333334
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 260973,
+    "image": "images/COCO_train2014_000000260973.jpg",
+    "caption": "Filtered photograph of boat and person windsurfing in ocean.",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "umbrella",
+        "pointTo": {
+          "x": 0.7755555555555556,
+          "y": 0.20666666666666667
+        }
+      },
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.7733333333333333,
+          "y": 0.8333333333333334
+        }
+      },
+      {
+        "iconType": "boat",
+        "pointTo": {
+          "x": 0.35777777777777775,
+          "y": 0.8333333333333334
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 296169,
+    "image": "images/COCO_train2014_000000296169.jpg",
+    "caption": "A dessert tray holding cakes and individual desserts",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "cake",
+        "pointTo": {
+          "x": 0.7883333333333333,
+          "y": 0.8377777777777777
+        }
+      },
+      {
+        "iconType": "cake",
+        "pointTo": {
+          "x": 0.7016666666666667,
+          "y": 0.5444444444444444
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 213532,
+    "image": "images/COCO_train2014_000000213532.jpg",
+    "caption": "Black and white image of two children paying attention. ",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.2542372881355932,
+          "y": 0.6977777777777778
+        }
+      },
+      {
+        "iconType": "tie",
+        "pointTo": {
+          "x": 0.5639445300462249,
+          "y": 0.8244444444444444
+        }
+      },
+      {
+        "iconType": "clock",
+        "pointTo": {
+          "x": 0.9445300462249615,
+          "y": 0.24
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 443413,
+    "image": "images/COCO_train2014_000000443413.jpg",
+    "caption": "A person on a snowboard in the snow.",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.47333333333333333,
+          "y": 0.46
+        }
+      },
+      {
+        "iconType": "snowboard",
+        "pointTo": {
+          "x": 0.6333333333333333,
+          "y": 0.5133333333333333
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 539665,
+    "image": "images/COCO_train2014_000000539665.jpg",
+    "caption": "a man that is walking with a large case",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.22041420118343194,
+          "y": 0.3711111111111111
+        }
+      },
+      {
+        "iconType": "handbag",
+        "pointTo": {
+          "x": 0.977810650887574,
+          "y": 0.13333333333333333
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 371848,
+    "image": "images/COCO_train2014_000000371848.jpg",
+    "caption": "A tennis player is hitting the ball with her racquet. ",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.5534124629080118,
+          "y": 0.5333333333333333
+        }
+      },
+      {
+        "iconType": "tennis racket",
+        "pointTo": {
+          "x": 0.5578635014836796,
+          "y": 0.057777777777777775
+        }
+      },
+      {
+        "iconType": "tennis racket",
+        "pointTo": {
+          "x": 0.5534124629080118,
+          "y": 0.31333333333333335
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 306113,
+    "image": "images/COCO_train2014_000000306113.jpg",
+    "caption": "A waffle-textured green matting holds a glass jar with brown sauce and a decorative white plate with cut up banana chunks, lying in sauce, and covered in more,, as well as a spoon, also holding sauce,   ",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "banana",
+        "pointTo": {
+          "x": 0.3616666666666667,
+          "y": 0.6044444444444445
+        }
+      },
+      {
+        "iconType": "spoon",
+        "pointTo": {
+          "x": 0.18333333333333332,
+          "y": 0.7133333333333334
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 472925,
+    "image": "images/COCO_train2014_000000472925.jpg",
+    "caption": "A stove top with pots and pans in a kitchen.",
+    "split": "train",
+    "actionHistories": [
+      {
+        "iconType": "cup",
+        "pointTo": {
+          "x": 0.6633333333333333,
+          "y": 0.2288888888888889
+        }
+      },
+      {
+        "iconType": "oven",
+        "pointTo": {
+          "x": 0.043333333333333335,
+          "y": 0.5155555555555555
+        }
+      },
+      {
+        "iconType": "oven",
+        "pointTo": {
+          "x": 0.16333333333333333,
+          "y": 0.8155555555555556
+        }
+      },
+      {
+        "iconType": "oven",
+        "pointTo": null
+      },
+      {
+        "iconType": "toaster",
+        "pointTo": {
+          "x": 0.06,
+          "y": 0.5044444444444445
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 7510,
+    "image": "images/COCO_train2014_000000007510.jpg",
+    "caption": "A steam powered train traveling through a rural countryside.",
+    "split": "validation",
+    "actionHistories": [
+      {
+        "iconType": "train",
+        "pointTo": {
+          "x": 0.5156017830609212,
+          "y": 0.6755555555555556
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 278763,
+    "image": "images/COCO_train2014_000000278763.jpg",
+    "caption": "An indoor area with sculptures of various animals, including giraffes and zebras.",
+    "split": "validation",
+    "actionHistories": [
+      {
+        "iconType": "zebra",
+        "pointTo": {
+          "x": 0.6511111111111111,
+          "y": 0.7511111111111111
+        }
+      },
+      {
+        "iconType": "giraffe",
+        "pointTo": {
+          "x": 0.7555555555555555,
+          "y": 0.6355555555555555
+        }
+      },
+      {
+        "iconType": "elephant",
+        "pointTo": {
+          "x": 0.07555555555555556,
+          "y": 0.6533333333333333
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 359497,
+    "image": "images/COCO_train2014_000000359497.jpg",
+    "caption": "a baseball player is swinging a bat at a game",
+    "split": "validation",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.4281767955801105,
+          "y": 0.3088888888888889
+        }
+      },
+      {
+        "iconType": "baseball bat",
+        "pointTo": {
+          "x": 0.8494475138121547,
+          "y": 0.44666666666666666
+        }
+      },
+      {
+        "iconType": "sports ball",
+        "pointTo": {
+          "x": 0.9171270718232044,
+          "y": 0.5266666666666666
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 145629,
+    "image": "images/COCO_train2014_000000145629.jpg",
+    "caption": "A cat is using the keyboard on a laptop as a head rest.",
+    "split": "validation",
+    "actionHistories": [
+      {
+        "iconType": "cat",
+        "pointTo": {
+          "x": 0.22175141242937854,
+          "y": 0.6644444444444444
+        }
+      },
+      {
+        "iconType": "laptop",
+        "pointTo": {
+          "x": 0.7471751412429378,
+          "y": 0.5733333333333334
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 339938,
+    "image": "images/COCO_train2014_000000339938.jpg",
+    "caption": "A mini laptop sitting on a table with someones arms on their big laptop",
+    "split": "test",
+    "actionHistories": [
+      {
+        "iconType": "laptop",
+        "pointTo": {
+          "x": 0.6233333333333333,
+          "y": 0.6311111111111111
+        }
+      },
+      {
+        "iconType": "laptop",
+        "pointTo": {
+          "x": 0.15666666666666668,
+          "y": 0.2088888888888889
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 507794,
+    "image": "images/COCO_train2014_000000507794.jpg",
+    "caption": "A women wearing an apron places a pie in an oven.",
+    "split": "test",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.8650306748466258,
+          "y": 0.4177777777777778
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 170326,
+    "image": "images/COCO_train2014_000000170326.jpg",
+    "caption": "A cute dog playing with a frisbee in the park.",
+    "split": "test",
+    "actionHistories": [
+      {
+        "iconType": "dog",
+        "pointTo": {
+          "x": 0.5557206537890045,
+          "y": 0.6266666666666667
+        }
+      },
+      {
+        "iconType": "frisbee",
+        "pointTo": {
+          "x": 0.8722139673105498,
+          "y": 0.5244444444444445
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  },
+  {
+    "image_id": 428851,
+    "image": "images/COCO_train2014_000000428851.jpg",
+    "caption": "A crowd of young people splashing in a lake filled with water.",
+    "split": "test",
+    "actionHistories": [
+      {
+        "iconType": "person",
+        "pointTo": {
+          "x": 0.6357340720221607,
+          "y": 0.6422222222222222
+        }
+      }
+    ],
+    "categoryHistories": [
+      {
+        "categoryName": "Animal"
+      },
+      {
+        "categoryName": "Vehicle"
+      },
+      {
+        "categoryName": "OutdoorObj"
+      },
+      {
+        "categoryName": "Sports"
+      },
+      {
+        "categoryName": "Kitchenware"
+      },
+      {
+        "categoryName": "Food"
+      },
+      {
+        "categoryName": "Furniture"
+      },
+      {
+        "categoryName": "Appliance"
+      },
+      {
+        "categoryName": "Electronics"
+      },
+      {
+        "categoryName": "IndoorObjects"
+      }
+    ]
+  }
+]
