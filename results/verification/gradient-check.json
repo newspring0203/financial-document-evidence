@@ -1,0 +1,22 @@
+{
+  "original_loss_assignments": [
+    "positive_loss.mean() + negative_loss",
+    "caption_loss_value"
+  ],
+  "conditions": {
+    "caption_only": {
+      "bert_parameters_with_gradient": 0,
+      "bert_gradient_norm": 0.0,
+      "bert_parameter_change_norm": 0.0,
+      "image_gradient_norm": 0.028859715908765793,
+      "decoder_parameters_with_gradient": 22
+    },
+    "caption_plus_contrastive": {
+      "bert_parameters_with_gradient": 21,
+      "bert_gradient_norm": 59.003559647907935,
+      "bert_parameter_change_norm": 0.05900356210948829,
+      "image_gradient_norm": 0.9487142562866211,
+      "decoder_parameters_with_gradient": 22
+    }
+  }
+}

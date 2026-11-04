@@ -1,0 +1,22 @@
+Collecting nltk==3.9.2
+  Downloading nltk-3.9.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting click (from nltk==3.9.2)
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting joblib (from nltk==3.9.2)
+  Using cached joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting regex>=2021.8.3 (from nltk==3.9.2)
+  Using cached regex-2026.1.15-cp39-cp39-macosx_11_0_arm64.whl.metadata (40 kB)
+Collecting tqdm (from nltk==3.9.2)
+  Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Downloading nltk-3.9.2-py3-none-any.whl (1.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 188.3 kB/s eta 0:00:00
+Using cached regex-2026.1.15-cp39-cp39-macosx_11_0_arm64.whl (288 kB)
+Downloading click-8.1.8-py3-none-any.whl (98 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 kB 1.1 MB/s eta 0:00:00
+Using cached joblib-1.5.3-py3-none-any.whl (309 kB)
+Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+Installing collected packages: tqdm, regex, joblib, click, nltk
+Successfully installed click-8.1.8 joblib-1.5.3 nltk-3.9.2 regex-2026.1.15 tqdm-4.70.1
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: /Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip

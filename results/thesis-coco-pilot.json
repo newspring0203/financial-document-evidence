@@ -1,0 +1,309 @@
+{
+  "mode": "manifest",
+  "seed": 42,
+  "epochs": 1,
+  "frozen_backbones": true,
+  "split_sizes": {
+    "train": 16,
+    "validation": 4,
+    "test": 4
+  },
+  "variants": {
+    "A": {
+      "contrastive": false,
+      "annotation": false,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_batch_loss": 10.472182273864746,
+          "validation": {
+            "metrics": {
+              "image_to_text_recall_at_1": 0.25,
+              "image_to_text_recall_at_5": 1.0,
+              "image_to_text_recall_at_10": 1.0,
+              "text_to_image_recall_at_1": 0.5,
+              "text_to_image_recall_at_5": 1.0,
+              "text_to_image_recall_at_10": 1.0,
+              "bleu_1": 0.0,
+              "bleu_2": 0.0,
+              "bleu_3": 0.0,
+              "bleu_4": 0.0
+            },
+            "examples": [
+              {
+                "reference": "A steam powered train traveling through a rural countryside.",
+                "generated": "##ndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndnd"
+              },
+              {
+                "reference": "An indoor area with sculptures of various animals, including giraffes and zebras.",
+                "generated": "eating sands eating sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands"
+              },
+              {
+                "reference": "a baseball player is swinging a bat at a game",
+                "generated": "cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons ambulance cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons ambulance cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons"
+              },
+              {
+                "reference": "A cat is using the keyboard on a laptop as a head rest.",
+                "generated": "serie elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant"
+              }
+            ]
+          }
+        }
+      ],
+      "test": {
+        "metrics": {
+          "image_to_text_recall_at_1": 0.0,
+          "image_to_text_recall_at_5": 1.0,
+          "image_to_text_recall_at_10": 1.0,
+          "text_to_image_recall_at_1": 0.25,
+          "text_to_image_recall_at_5": 1.0,
+          "text_to_image_recall_at_10": 1.0,
+          "bleu_1": 0.0,
+          "bleu_2": 0.0,
+          "bleu_3": 0.0,
+          "bleu_4": 0.0
+        },
+        "examples": [
+          {
+            "reference": "A mini laptop sitting on a table with someones arms on their big laptop",
+            "generated": "termination termination termination termination termination termination termination terminationlessness termination terminationlessness termination terminationlessness terminationlessness terminationlessness terminationlessness termination terminationlessness termination terminationlessness terminationlessness termination fiestalessness termination termination termination fiestalessness termination termination termination termination termination termination termination termination terminationlessness"
+          },
+          {
+            "reference": "A women wearing an apron places a pie in an oven.",
+            "generated": "progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed"
+          },
+          {
+            "reference": "A cute dog playing with a frisbee in the park.",
+            "generated": "bouncing phoebeewew mate accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating"
+          },
+          {
+            "reference": "A crowd of young people splashing in a lake filled with water.",
+            "generated": "coincide coincide 43 coincide 43 coincide 43 coincide coincide 43 coincide 43 coincide coincide 43 coincide coincide coincide coincide coincide 43 coincide coincide 43 coincide 43 coincide coincide coincide coincide 43 coincide coincide coincide 43 coincide 43 coincide coincide 43 coincide coincide coincide 43 coincide coincide coincide"
+          }
+        ]
+      }
+    },
+    "B": {
+      "contrastive": true,
+      "annotation": false,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_batch_loss": 11.885818481445312,
+          "validation": {
+            "metrics": {
+              "image_to_text_recall_at_1": 0.25,
+              "image_to_text_recall_at_5": 1.0,
+              "image_to_text_recall_at_10": 1.0,
+              "text_to_image_recall_at_1": 0.5,
+              "text_to_image_recall_at_5": 1.0,
+              "text_to_image_recall_at_10": 1.0,
+              "bleu_1": 0.0,
+              "bleu_2": 0.0,
+              "bleu_3": 0.0,
+              "bleu_4": 0.0
+            },
+            "examples": [
+              {
+                "reference": "A steam powered train traveling through a rural countryside.",
+                "generated": "##ndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndnd"
+              },
+              {
+                "reference": "An indoor area with sculptures of various animals, including giraffes and zebras.",
+                "generated": "eating sands eating sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands"
+              },
+              {
+                "reference": "a baseball player is swinging a bat at a game",
+                "generated": "cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons ambulance cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons ambulance cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons"
+              },
+              {
+                "reference": "A cat is using the keyboard on a laptop as a head rest.",
+                "generated": "serie elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant"
+              }
+            ]
+          }
+        }
+      ],
+      "test": {
+        "metrics": {
+          "image_to_text_recall_at_1": 0.0,
+          "image_to_text_recall_at_5": 1.0,
+          "image_to_text_recall_at_10": 1.0,
+          "text_to_image_recall_at_1": 0.25,
+          "text_to_image_recall_at_5": 1.0,
+          "text_to_image_recall_at_10": 1.0,
+          "bleu_1": 0.0,
+          "bleu_2": 0.0,
+          "bleu_3": 0.0,
+          "bleu_4": 0.0
+        },
+        "examples": [
+          {
+            "reference": "A mini laptop sitting on a table with someones arms on their big laptop",
+            "generated": "termination termination termination termination termination termination termination terminationlessness termination terminationlessness termination terminationlessness terminationlessness terminationlessness terminationlessness termination terminationlessness termination terminationlessness terminationlessness termination fiestalessness termination termination termination fiestalessness termination termination termination termination termination termination termination termination terminationlessness"
+          },
+          {
+            "reference": "A women wearing an apron places a pie in an oven.",
+            "generated": "progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed"
+          },
+          {
+            "reference": "A cute dog playing with a frisbee in the park.",
+            "generated": "bouncing phoebeewew mate accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating"
+          },
+          {
+            "reference": "A crowd of young people splashing in a lake filled with water.",
+            "generated": "coincide coincide 43 coincide 43 coincide 43 coincide coincide 43 coincide 43 coincide coincide 43 coincide coincide coincide coincide coincide 43 coincide coincide 43 coincide 43 coincide coincide coincide coincide 43 coincide coincide coincide 43 coincide 43 coincide coincide 43 coincide coincide coincide 43 coincide coincide coincide"
+          }
+        ]
+      }
+    },
+    "C": {
+      "contrastive": false,
+      "annotation": true,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_batch_loss": 13.049118041992188,
+          "validation": {
+            "metrics": {
+              "image_to_text_recall_at_1": 0.25,
+              "image_to_text_recall_at_5": 1.0,
+              "image_to_text_recall_at_10": 1.0,
+              "text_to_image_recall_at_1": 0.5,
+              "text_to_image_recall_at_5": 1.0,
+              "text_to_image_recall_at_10": 1.0,
+              "bleu_1": 0.0,
+              "bleu_2": 0.0,
+              "bleu_3": 0.0,
+              "bleu_4": 0.0
+            },
+            "examples": [
+              {
+                "reference": "A steam powered train traveling through a rural countryside.",
+                "generated": "##ndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndnd"
+              },
+              {
+                "reference": "An indoor area with sculptures of various animals, including giraffes and zebras.",
+                "generated": "eating sands eating sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands"
+              },
+              {
+                "reference": "a baseball player is swinging a bat at a game",
+                "generated": "cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons ambulance® cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons ambulance cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles"
+              },
+              {
+                "reference": "A cat is using the keyboard on a laptop as a head rest.",
+                "generated": "serie elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant"
+              }
+            ]
+          }
+        }
+      ],
+      "test": {
+        "metrics": {
+          "image_to_text_recall_at_1": 0.0,
+          "image_to_text_recall_at_5": 1.0,
+          "image_to_text_recall_at_10": 1.0,
+          "text_to_image_recall_at_1": 0.25,
+          "text_to_image_recall_at_5": 1.0,
+          "text_to_image_recall_at_10": 1.0,
+          "bleu_1": 0.0,
+          "bleu_2": 0.0,
+          "bleu_3": 0.0,
+          "bleu_4": 0.0
+        },
+        "examples": [
+          {
+            "reference": "A mini laptop sitting on a table with someones arms on their big laptop",
+            "generated": "termination termination termination termination termination termination termination termination termination terminationlessness termination termination terminationlessness terminationlessness terminationlessness termination termination terminationlessness termination termination terminationlessness terminationlessness terminationlessness termination terminationlessness terminationlessness termination termination terminationlessness terminationlessness termination terminationlessness terminationlessness"
+          },
+          {
+            "reference": "A women wearing an apron places a pie in an oven.",
+            "generated": "progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed"
+          },
+          {
+            "reference": "A cute dog playing with a frisbee in the park.",
+            "generated": "describes describes buzz accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating"
+          },
+          {
+            "reference": "A crowd of young people splashing in a lake filled with water.",
+            "generated": "coincide coincide coincide 43 coincide 43 coincide coincide 43 coincide coincide 43 coincide coincide 43 coincide coincide 43 coincide coincide coincide coincide 43 coincide coincide 43 coincide 43 coincide coincide coincide coincide coincide 43 coincide coincide 43 coincide coincide 43 coincide coincide coincide 43 coincide coincide coincide"
+          }
+        ]
+      }
+    },
+    "D": {
+      "contrastive": true,
+      "annotation": true,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_batch_loss": 14.462754249572754,
+          "validation": {
+            "metrics": {
+              "image_to_text_recall_at_1": 0.25,
+              "image_to_text_recall_at_5": 1.0,
+              "image_to_text_recall_at_10": 1.0,
+              "text_to_image_recall_at_1": 0.5,
+              "text_to_image_recall_at_5": 1.0,
+              "text_to_image_recall_at_10": 1.0,
+              "bleu_1": 0.0,
+              "bleu_2": 0.0,
+              "bleu_3": 0.0,
+              "bleu_4": 0.0
+            },
+            "examples": [
+              {
+                "reference": "A steam powered train traveling through a rural countryside.",
+                "generated": "##ndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndnd"
+              },
+              {
+                "reference": "An indoor area with sculptures of various animals, including giraffes and zebras.",
+                "generated": "eating sands eating sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands sands"
+              },
+              {
+                "reference": "a baseball player is swinging a bat at a game",
+                "generated": "cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons ambulance® cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons ambulance cannons vehicles cannons vehicles cannons vehicles cannons vehicles cannons vehicles"
+              },
+              {
+                "reference": "A cat is using the keyboard on a laptop as a head rest.",
+                "generated": "serie elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant elegant"
+              }
+            ]
+          }
+        }
+      ],
+      "test": {
+        "metrics": {
+          "image_to_text_recall_at_1": 0.0,
+          "image_to_text_recall_at_5": 1.0,
+          "image_to_text_recall_at_10": 1.0,
+          "text_to_image_recall_at_1": 0.25,
+          "text_to_image_recall_at_5": 1.0,
+          "text_to_image_recall_at_10": 1.0,
+          "bleu_1": 0.0,
+          "bleu_2": 0.0,
+          "bleu_3": 0.0,
+          "bleu_4": 0.0
+        },
+        "examples": [
+          {
+            "reference": "A mini laptop sitting on a table with someones arms on their big laptop",
+            "generated": "termination termination termination termination termination termination termination termination termination terminationlessness termination termination terminationlessness terminationlessness terminationlessness termination termination terminationlessness termination termination terminationlessness terminationlessness terminationlessness termination terminationlessness terminationlessness termination termination terminationlessness terminationlessness termination terminationlessness terminationlessness"
+          },
+          {
+            "reference": "A women wearing an apron places a pie in an oven.",
+            "generated": "progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed progressed"
+          },
+          {
+            "reference": "A cute dog playing with a frisbee in the park.",
+            "generated": "describes describes buzz accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating accelerating"
+          },
+          {
+            "reference": "A crowd of young people splashing in a lake filled with water.",
+            "generated": "coincide coincide coincide 43 coincide 43 coincide coincide 43 coincide coincide 43 coincide coincide 43 coincide coincide 43 coincide coincide coincide coincide 43 coincide coincide 43 coincide 43 coincide coincide coincide coincide coincide 43 coincide coincide 43 coincide coincide 43 coincide coincide coincide 43 coincide coincide coincide"
+          }
+        ]
+      }
+    }
+  }
+}

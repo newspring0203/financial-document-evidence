@@ -1,0 +1,15 @@
+macOS-15.3.1-arm64-arm-64bit
+3.9.6
+PyMuPDF==1.26.5
+openpyxl==3.1.5
+torch==2.8.0
+torchvision==0.23.0
+timm==1.0.22
+transformers==4.57.1
+sentence-transformers==5.1.2
+scikit-learn==1.6.1
+nltk==3.9.2
+intfloat/multilingual-e5-small @ 614241f622f53c4eeff9890bdc4f31cfecc418b3
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 @ e8f8c211226b894fcb81acc59f3b34ba3efd5f42
+bert-base-uncased @ 86b5e0934494bd15c9632b12f734a8a67f723594
+timm/vit_base_patch16_224.augreg2_in21k_ft_in1k @ 1ad1f339338c038d55c095cbdf80e220be907571

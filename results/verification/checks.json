@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Python syntax",
+    "Markdown links",
+    "reference matches original",
+    "BERT gradients and parameter update",
+    "causal mask and vocabulary",
+    "unchanged baseline results and queries",
+    "merged period restoration",
+    "recomputed MRR",
+    "normal CLI matches experiment"
+  ],
+  "source_sha256": "c910475f2f17cede65f566630f1d3b19487a6ce2b62ce3e74094fdc2f0fa6dc3",
+  "status": "passed"
+}

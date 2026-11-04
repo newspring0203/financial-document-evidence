@@ -1,0 +1,7 @@
+{
+  "setup": "Change only the last input token and compare first-position logits in eval mode.",
+  "original_max_change": 0.09474235773086548,
+  "corrected_max_change": 0.0,
+  "corrected_vocabulary_size": 30522,
+  "tokenizer_size": 30522
+}

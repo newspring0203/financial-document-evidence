@@ -1,0 +1,309 @@
+{
+  "mode": "synthetic_smoke",
+  "seed": 42,
+  "epochs": 1,
+  "frozen_backbones": false,
+  "split_sizes": {
+    "train": 12,
+    "validation": 4,
+    "test": 4
+  },
+  "variants": {
+    "A": {
+      "contrastive": false,
+      "annotation": false,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_batch_loss": 9.848270098368326,
+          "validation": {
+            "metrics": {
+              "image_to_text_recall_at_1": 0.25,
+              "image_to_text_recall_at_5": 1.0,
+              "image_to_text_recall_at_10": 1.0,
+              "text_to_image_recall_at_1": 0.25,
+              "text_to_image_recall_at_5": 1.0,
+              "text_to_image_recall_at_10": 1.0,
+              "bleu_1": 0.0,
+              "bleu_2": 0.0,
+              "bleu_3": 0.0,
+              "bleu_4": 0.0
+            },
+            "examples": [
+              {
+                "reference": "a red square",
+                "generated": "rangers locality unlimited loads 240annaclusiveamps mont french swimmer"
+              },
+              {
+                "reference": "a blue square",
+                "generated": "rangers locality unlimited loads lifetime imply thankfullyɣpac fabulous acquire"
+              },
+              {
+                "reference": "a green square",
+                "generated": "rangers locality unlimited loads lifetimechogui griffiths termed zevcio"
+              },
+              {
+                "reference": "a yellow square",
+                "generated": "rangers locality unlimited loads lifetimechogui griffiths termed zevcio"
+              }
+            ]
+          }
+        }
+      ],
+      "test": {
+        "metrics": {
+          "image_to_text_recall_at_1": 0.25,
+          "image_to_text_recall_at_5": 1.0,
+          "image_to_text_recall_at_10": 1.0,
+          "text_to_image_recall_at_1": 0.25,
+          "text_to_image_recall_at_5": 1.0,
+          "text_to_image_recall_at_10": 1.0,
+          "bleu_1": 0.0,
+          "bleu_2": 0.0,
+          "bleu_3": 0.0,
+          "bleu_4": 0.0
+        },
+        "examples": [
+          {
+            "reference": "a red square",
+            "generated": "rangers locality unlimited loads 240annaclusiveamps mont french swimmer"
+          },
+          {
+            "reference": "a blue square",
+            "generated": "rangers locality unlimited loads lifetime imply thankfullyɣpac fabulous acquire"
+          },
+          {
+            "reference": "a green square",
+            "generated": "rangers locality unlimited loads lifetimechogui griffiths termed zevcio"
+          },
+          {
+            "reference": "a yellow square",
+            "generated": "rangers locality unlimited loads lifetimechogui griffiths termed zevcio"
+          }
+        ]
+      }
+    },
+    "B": {
+      "contrastive": true,
+      "annotation": false,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_batch_loss": 11.259021123250326,
+          "validation": {
+            "metrics": {
+              "image_to_text_recall_at_1": 0.25,
+              "image_to_text_recall_at_5": 1.0,
+              "image_to_text_recall_at_10": 1.0,
+              "text_to_image_recall_at_1": 0.25,
+              "text_to_image_recall_at_5": 1.0,
+              "text_to_image_recall_at_10": 1.0,
+              "bleu_1": 0.0,
+              "bleu_2": 0.0,
+              "bleu_3": 0.0,
+              "bleu_4": 0.0
+            },
+            "examples": [
+              {
+                "reference": "a red square",
+                "generated": "rangers locality unlimited loads 240 victorious mathematician lair acquainted 22 acquire"
+              },
+              {
+                "reference": "a blue square",
+                "generated": "rangers locality unlimited loads lifetimecho volcanoes 1961 associations analyzedeum"
+              },
+              {
+                "reference": "a green square",
+                "generated": "rangers verses jared espana assam lizards hilda⁄₄ thirdsones residents"
+              },
+              {
+                "reference": "a yellow square",
+                "generated": "rangers verses jared espana assam bikini inverse avoided suspected refugeebble"
+              }
+            ]
+          }
+        }
+      ],
+      "test": {
+        "metrics": {
+          "image_to_text_recall_at_1": 0.25,
+          "image_to_text_recall_at_5": 1.0,
+          "image_to_text_recall_at_10": 1.0,
+          "text_to_image_recall_at_1": 0.25,
+          "text_to_image_recall_at_5": 1.0,
+          "text_to_image_recall_at_10": 1.0,
+          "bleu_1": 0.0,
+          "bleu_2": 0.0,
+          "bleu_3": 0.0,
+          "bleu_4": 0.0
+        },
+        "examples": [
+          {
+            "reference": "a red square",
+            "generated": "rangers locality unlimited loads 240 victorious mathematician lair acquainted 22 acquire"
+          },
+          {
+            "reference": "a blue square",
+            "generated": "rangers locality unlimited loads lifetimecho volcanoes 1961 associations analyzedeum"
+          },
+          {
+            "reference": "a green square",
+            "generated": "rangers verses jared espana assam lizards hilda⁄₄ thirdsones residents"
+          },
+          {
+            "reference": "a yellow square",
+            "generated": "rangers verses jared espana assam bikini inverse avoided suspected refugeebble"
+          }
+        ]
+      }
+    },
+    "C": {
+      "contrastive": false,
+      "annotation": true,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_batch_loss": 12.416152318318685,
+          "validation": {
+            "metrics": {
+              "image_to_text_recall_at_1": 0.25,
+              "image_to_text_recall_at_5": 1.0,
+              "image_to_text_recall_at_10": 1.0,
+              "text_to_image_recall_at_1": 0.25,
+              "text_to_image_recall_at_5": 1.0,
+              "text_to_image_recall_at_10": 1.0,
+              "bleu_1": 0.0,
+              "bleu_2": 0.0,
+              "bleu_3": 0.0,
+              "bleu_4": 0.0
+            },
+            "examples": [
+              {
+                "reference": "a red square",
+                "generated": "rangers locality unlimited loads lifetime swimmer columbia internal [unused350] drills oriented"
+              },
+              {
+                "reference": "a blue square",
+                "generated": "rangers locality unlimited loads lifetime imply thankfullyɣpac fabulous acquire"
+              },
+              {
+                "reference": "a green square",
+                "generated": "rangers locality unlimited loads lifetime swimmer columbia internal [unused350] drills oriented"
+              },
+              {
+                "reference": "a yellow square",
+                "generated": "rangers locality unlimited loads lifetime swimmer columbia internal russo andhra rocker"
+              }
+            ]
+          }
+        }
+      ],
+      "test": {
+        "metrics": {
+          "image_to_text_recall_at_1": 0.25,
+          "image_to_text_recall_at_5": 1.0,
+          "image_to_text_recall_at_10": 1.0,
+          "text_to_image_recall_at_1": 0.25,
+          "text_to_image_recall_at_5": 1.0,
+          "text_to_image_recall_at_10": 1.0,
+          "bleu_1": 0.0,
+          "bleu_2": 0.0,
+          "bleu_3": 0.0,
+          "bleu_4": 0.0
+        },
+        "examples": [
+          {
+            "reference": "a red square",
+            "generated": "rangers locality unlimited loads lifetime swimmer columbia internal pulling ミeter"
+          },
+          {
+            "reference": "a blue square",
+            "generated": "rangers locality unlimited loads lifetime imply thankfullyɣpac fabulous acquire"
+          },
+          {
+            "reference": "a green square",
+            "generated": "rangers locality unlimited loads lifetime swimmer columbia internaluil margins conversation"
+          },
+          {
+            "reference": "a yellow square",
+            "generated": "rangers locality unlimited loads lifetime swimmer columbia internal russo andhra rocker"
+          }
+        ]
+      }
+    },
+    "D": {
+      "contrastive": true,
+      "annotation": true,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_batch_loss": 13.954947789510092,
+          "validation": {
+            "metrics": {
+              "image_to_text_recall_at_1": 0.25,
+              "image_to_text_recall_at_5": 1.0,
+              "image_to_text_recall_at_10": 1.0,
+              "text_to_image_recall_at_1": 0.25,
+              "text_to_image_recall_at_5": 1.0,
+              "text_to_image_recall_at_10": 1.0,
+              "bleu_1": 0.0,
+              "bleu_2": 0.0,
+              "bleu_3": 0.0,
+              "bleu_4": 0.0
+            },
+            "examples": [
+              {
+                "reference": "a red square",
+                "generated": "rangers camera [unused753] marley antilles feeds tommy subjected curtain rink torres"
+              },
+              {
+                "reference": "a blue square",
+                "generated": "rangers locality unlimited loads lifetimecho volcanoesicative specializedvittद"
+              },
+              {
+                "reference": "a green square",
+                "generated": "rangers verses jared espana assam bikini inverse incarcerated flanagan tastes procurement"
+              },
+              {
+                "reference": "a yellow square",
+                "generated": "rangers camera 小 [unused427]yev baeoku 1714watch御 proceeding"
+              }
+            ]
+          }
+        }
+      ],
+      "test": {
+        "metrics": {
+          "image_to_text_recall_at_1": 0.25,
+          "image_to_text_recall_at_5": 1.0,
+          "image_to_text_recall_at_10": 1.0,
+          "text_to_image_recall_at_1": 0.25,
+          "text_to_image_recall_at_5": 1.0,
+          "text_to_image_recall_at_10": 1.0,
+          "bleu_1": 0.0,
+          "bleu_2": 0.0,
+          "bleu_3": 0.0,
+          "bleu_4": 0.0
+        },
+        "examples": [
+          {
+            "reference": "a red square",
+            "generated": "rangers camera [unused753] marley antilles feeds tommy subjected curtain rink torres"
+          },
+          {
+            "reference": "a blue square",
+            "generated": "rangers camera [unused753]nified archie chronology [unused34]ucifysa beech"
+          },
+          {
+            "reference": "a green square",
+            "generated": "rangers verses jared espana assam bikini inverse incarcerated flanagan tastes procurement"
+          },
+          {
+            "reference": "a yellow square",
+            "generated": "rangers camera 小 [unused427]yev baeoku 1714watch御 proceeding"
+          }
+        ]
+      }
+    }
+  }
+}
