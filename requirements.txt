@@ -1,0 +1,9 @@
+PyMuPDF==1.26.5
+openpyxl==3.1.5
+torch==2.8.0
+torchvision==0.23.0
+timm==1.0.22
+transformers==4.57.1
+sentence-transformers==5.1.2
+scikit-learn==1.6.1
+nltk==3.9.2
